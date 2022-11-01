@@ -1,0 +1,108 @@
+.container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    width: 872px;
+    background-color: grey;
+    height: 900px;
+    margin-top: 33px;
+    text-align: left;
+    padding: 48px 65px;
+    background-color: white;
+
+}
+
+.form-row {
+    height: 40px;
+}
+
+.form-div {
+    display: table;
+    margin: 0 auto;
+}
+
+form h2 {
+    font: normal normal 600 16px/25px Poppins;
+    letter-spacing: 0.07px;
+    color: #363636;
+    margin-left: 0;
+}
+
+form p {
+    font: normal normal normal 14px/19px Open Sans;
+    letter-spacing: 0.06px;
+    color: #565656
+}
+
+label {
+    font: normal normal normal 12px/17px Open Sans;
+    letter-spacing: 0.05px;
+    color: #75787B;
+}
+
+::placeholder {
+    text-align: left;
+    font: normal normal normal 14px/21px Open Sans;
+    letter-spacing: 0.06px;
+
+}
+
+.validationCustom02 {
+    font-weight: 500;
+}
+
+.form-control {
+    color: #6c757d;
+    background-color: #F4F4F4;
+    font: normal normal normal 14px/22px Open Sans;
+}
+
+.form-control:focus {
+    border-color: #19675E;
+    border: 2px solid;
+    box-shadow: none;
+    background-color: #F4F4F4;
+}
+
+input {
+    font: normal normal normal 14px/19px Open Sans;
+    color: #A7A8AA;
+    background-color: #F4F4F4;
+}
+
+#sel1 {
+    /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-open-sans); */
+    letter-spacing: var(--unnamed-character-spacing-0-06);
+    text-align: left;
+    font: normal normal normal 14px/19px Open Sans;
+    letter-spacing: 0.06px;
+    height: 40px;
+    color: #A7A8AA
+}
+
+.act-btn {
+    margin-left: 18px;
+    padding: 32px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.act-btn button {
+    margin-left: 16px;
+}
+
+.header {
+    display: flex;
+}
+
+.top-btn {
+    position: absolute;
+    right: 70px
+}
+
+#backBtn{
+    position: absolute;
+    left: 750px;
+}

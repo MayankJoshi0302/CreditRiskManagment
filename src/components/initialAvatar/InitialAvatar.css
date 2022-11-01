@@ -1,0 +1,14 @@
+.initialAvtar {
+  border: 1px solid;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: #138d75;
+}
+
+.initialValue {
+  color: #fff;
+  font-weight: bold;
+  padding: 14px 8px;
+  line-height: 1.9em;
+}
